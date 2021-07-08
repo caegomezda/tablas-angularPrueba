@@ -1,0 +1,20 @@
+<div class="row" style="display: flex;">
+    <div class="col-6" >
+        <ag-grid-angular 
+        style="width: 205px; height: 175px;" 
+        class="ag-theme-balham"
+        [rowData]="rowData" 
+        [columnDefs]="columnDefs"
+        (click)="onClick($event)">
+        </ag-grid-angular>      
+    </div>
+    <div class="col-6">
+        <ag-grid-angular 
+        style="width: 205px; height: 175px;" 
+        class="ag-theme-balham"
+        [rowData]="rowData2" 
+        [columnDefs]="columnDefs2"
+        (click)="onClick($event)">
+    </ag-grid-angular>
+    </div>
+</div>
